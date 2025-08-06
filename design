@@ -1,0 +1,6 @@
+module glitch_free_mux (
+    input a, b, sel,
+    output y
+);
+    assign y = sel ? b : a;
+endmodule
